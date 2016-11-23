@@ -1,0 +1,4 @@
+HOST = "127.0.0.1"
+PORT = 7000
+PATH = "/api/statistic/post"
+MUSS_SERVER_URL = "http://127.0.0.1:8080/"

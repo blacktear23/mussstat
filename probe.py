@@ -7,7 +7,7 @@ from mussstat.probe import *
 
 
 def initialize_logging():
-    log_file = os.path.dirname(os.path.abspath(__file__)) + "/log/drone.log"
+    log_file = os.path.dirname(os.path.abspath(__file__)) + "/log/mussstat.log"
     app_logger = logging.getLogger()
     handler = TimedRotatingFileHandler(log_file, "D", 1, 15)
     format = logging.Formatter('[%(asctime)s PID:%(process)d]%(levelname)s:%(message)s')
